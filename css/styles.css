@@ -185,15 +185,5 @@ body {
     }
 
 }
-@media (max-height: 568px){
-  
-  #suggestions {
-    height: 30vh;
-  }
-  
-  #suggestions button:nth-last-child(-n+4) {
-  display: none;
-  }
-}
 
 
