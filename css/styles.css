@@ -159,11 +159,8 @@ body {
      padding: 0;
   }
   #suggestions {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 30vh;
-  
     flex-direction: column;
     align-content: center;
   }
@@ -171,29 +168,11 @@ body {
     min-width: 80px;
     margin: 0.2rem;
     padding: 0.6rem 1rem;
-    border-radius: 1rem;
-    border: none;
-    background-color: #8dd0f5;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    opacity: 0.8;
-    transition: 0.4s;
   }
   #suggestions button:nth-last-child(-n+4) {
     display: none;
     }
 
-}
-@media (max-width: 568px){
-  
-  #suggestions {
-    height: 30vh;
-  }
-  
-  #suggestions button:nth-last-child(-n+4) {
-  display: none;
-  }
 }
 
 
