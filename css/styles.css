@@ -152,7 +152,7 @@ body {
 @media (max-width: 768px){
   .container {
     width: 70%;
-    min-height: 70%;
+    height: 70%;
  
   }
   .form input {
@@ -184,6 +184,16 @@ body {
     display: none;
     }
 
+}
+@media (max-width: 568px){
+  
+  #suggestions {
+    height: 30vh;
+  }
+  
+  #suggestions button:nth-last-child(-n+4) {
+  display: none;
+  }
 }
 
 
